@@ -1,0 +1,12 @@
+{
+  "name": "my-cool-package",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node my-tests.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}

@@ -1,0 +1,8 @@
+<script>
+  async function fetchFjord() {
+    const response = await fetch('https://bootcamp.fjord.jp')
+    const data = await response.text();
+    console.log(data)
+  }
+  fetchFjord()
+</script>
